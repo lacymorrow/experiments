@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="lacymorrowApp">
+  <head>
+    <title>lacymorrow Boilerplate</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/lacymorrow.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div ng-view></div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/ng/angular.js"></script>
+    <script src="assets/ng/angular-route.js"></script>
+    <script src="assets/ng/angular-animate.js"></script>
+    <script src="js/lacymorrow.min.js"></script>
+    <script>
+      var app = angular.module('lacymorrowApp', ['ngRoute']);
+
+      app.controller('HomeController', function($scope){
+        function init(){
+        }
+          init();
+      });
+
+      app.config(function($routeProvider){
+        $routeProvider.when('/',
+        {
+          //controller: 'HomeController',
+          //templateUrl: 'app/views/home.html' 
+        })
+      });
+    </script>    
+  </body>
+</html>
