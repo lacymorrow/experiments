@@ -1,6 +1,6 @@
 # Experiments and Projects
 
-A collection of labs, experiments, and other interesting code-stuffs. *mostly outdated*
+A collection of labs, experiments, and other interesting code-stuffs. *mostly outdated.*
 
 
 ## Included:
@@ -60,7 +60,7 @@ Viewr is a Flash web application that uses the Flickr API to dynamically load in
 
 [Demo](http://lacymorrow.com/projects/offline/cee)
 
-A complex media interface created as a proof-of-concept in Flash. Displays news, music, photos, and videos in a novel way. It's outdated, so many features are now broken but the idea and uniqueness remains. Click and drag a topic to the center and play around.
+A complex media interface created as a proof-of-concept in Flash. Displays news, music, photos, and videos in a novel way. Its outdated, so many features are now broken but the idea and uniqueness remains. Click and drag a topic to the center and play around.
 
 
 ### iTunes Library XML Wrapper
@@ -70,7 +70,7 @@ A complex media interface created as a proof-of-concept in Flash. Displays news,
 
 ### PHP CRUD App
 
-An complete CRUD *(create/read/update/delete)* application written in PHP. Manages a public library-style checkout system which allows students to rent or "check-out" instruments from any number of schools in the system. Uses the [Flintstone](https://github.com/fire015/flintstone/) flat-file database library and Bootstrap. Admin account user `admin@admin.com` and password `administrator`
+An complete CRUD *(create/read/update/delete)* application written in PHP. Manages a public library-style checkout system which allows students to rent or "check-out" instruments from any number of schools in the system. Uses the [Flintstone](https://github.com/fire015/flintstone/) flat-file database library and Bootstrap. Admin account user `admin@admin.com` and password `administrator`.
 
 
 ### TI Games
