@@ -74,15 +74,23 @@ An complete CRUD *(create/read/update/delete)* application written in PHP. Manag
 
 A collection of finished and unfinished games and utilities written in BASIC for the TI-83/84/+. Completed apps:
 
-** Drawout **: A drawing application with a few features and enhancements.
-** Jackpot **: A casino-style slot machine, using characters rather than images.
-** Jumper **: My personal favorite, a simple jumper. Press the button, jump over the whole.
-** Matches **: Also called Nim, a classic two-player puzzle game. Play a friend or the computer. Force your opponent to take the last match.
-** Mazeworm **: A complex snake-esque game. Make your way through increasingly difficult mazes without touching the walls. Accepts custom maps.
-** RPS **: Rock-Paper-Scissors.
-** Tic-Tac **: Tic-Tac-Toe.
-** Trigger **: An assasination game modeled after the Sniper assembly games.
-** Whack **: Whack-a-mole on your calculator.
+**Drawout**: A drawing application with a few features and enhancements.
+
+**Jackpot**: A casino-style slot machine, using characters rather than images.
+
+**Jumper**: My personal favorite, a simple jumper. Press the button, jump over the whole.
+
+**Matches**: Also called Nim, a classic two-player puzzle game. Play a friend or the computer. Force your opponent to take the last match.
+
+**Mazeworm**: A complex snake-esque game. Make your way through increasingly difficult mazes without touching the walls. Accepts custom maps.
+
+**RPS**: Rock-Paper-Scissors.
+
+**Tic-Tac**: Tic-Tac-Toe.
+
+**Trigger**: An assasination game modeled after the Sniper assembly games.
+
+**Whack**: Whack-a-mole on your calculator.
 
 
 #### Viewr
