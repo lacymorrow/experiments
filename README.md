@@ -11,7 +11,7 @@ All of the projects are independent. Some are complete, others are not.
 
 Flashpress is a Flash front-end for any WordPress, Moveable Type, or Blogger blog with an XML–RPC interface. It interfaces with your blog to provide, super–fast editing without reloading pages. It contains a built-in text interface based off of the open–source Obedit. Interface offers basic creation/deletion and editing of posts, as well as a login cookie for quick login.
 
-Use 'demo' for both the username and password to test.
+Use `demo` for both the username and password.
 
 
 #### Gallery
@@ -43,14 +43,19 @@ Experiments in generative art using Flash.
 
 #### Giga Player
 
-The Giga Player was created to be a radically feature-filled web music player for budding artists and labels alike. Features buying or saving in multiple file formats, album art, personal playlist features (save/add/remove), drag–n–drop rearranging, and a powerful Javascript API for full integration. Sadly, the budget was cut and the project was never finished. It’s now available here with the full source. Click and drag!
+The Giga Player was created to be a radically feature-filled web music player for budding artists and labels alike. Features buying or saving in multiple file formats, album art, personal playlist features (save/add/remove), drag–n–drop rearranging, and a powerful Javascript API for full integration. Sadly, the budget was cut and the project was never finished. It’s now available here with the full source. Click and drag a song to reorder.
+
+
+#### Image Font Generator
+
+A PHP script which converts a string into an image of any size of color, using any truetype font provided. Before web fonts were supported by most browsers, this was the script I used to generate headers in custom fonts.
 
 
 #### Interactive Media Interface 
 
 [link](http://lacymorrow.com/projects/offline/cee)
 
-A complex media interface created as a proof-of-concept in Flash. Displays news, music, photos, and videos in a novel way. It's outdated, so many features are now broken but the idea and uniqueness remains. Click and drag a topic to the screen and play around!
+A complex media interface created as a proof-of-concept in Flash. Displays news, music, photos, and videos in a novel way. It's outdated, so many features are now broken but the idea and uniqueness remains. Click and drag a topic to the center and play around.
 
 
 #### iTunes Library XML Wrapper
@@ -60,7 +65,18 @@ A complex media interface created as a proof-of-concept in Flash. Displays news,
 
 #### PHP CRUD App
 
-An complete CRUD *(create/read/update/delete)* application written in PHP. Manages a public library-style checkout system which allows students to rent or "check-out" instruments from any number of schools in the system. Admin account included. Uses the [Flintstone](https://github.com/fire015/flintstone/) flat-file database library.
+An complete CRUD *(create/read/update/delete)* application written in PHP. Manages a public library-style checkout system which allows students to rent or "check-out" instruments from any number of schools in the system. Uses the [Flintstone](https://github.com/fire015/flintstone/) flat-file database library and Bootstrap. Admin account user `admin@admin.com` and password `administrator`
+
+
+#### TI Games
+
+[Featured on ticalc.org](http://www.ticalc.org/archives/files/authors/99/9999.html)
+
+A collection of finished and unfinished games and utilities written in BASIC for the TI-83/84/+. Some featured completed apps:
+
+ * ** Drawout **: A drawing application with a few features and enhancements.
+ * ** Jackpot **: A 
+
 
 #### Viewr
 
