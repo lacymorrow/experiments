@@ -1,0 +1,56 @@
+{
+  "name": "lacymorrow",
+  "version": "0.1.0",
+  "author": "lacymorrow <me@lacymorrow.com>",
+  "description": "Web-Dev boilerplate for lacymorrow",
+  "homepage": "http://lacymorrow.com",
+  "contributors": [
+    {
+      "name": "Lacy Morrow",
+      "email": "me@lacymorrow.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lacymorrow/lacymorrow.git"
+  },
+  "keywords": [
+    "lacymorrow",
+    "webdev"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-connect": "~0.6.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-csslint": "~0.2.0",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-html-build": "~0.3.1",
+    "grunt-contrib-imagemin": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-less": "~0.9.0",
+    "grunt-contrib-qunit": "~0.4.0",
+    "grunt-contrib-uglify": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-csscomb": "~2.0.1",
+    "grunt-exec": "0.4.3",
+    "grunt-html-validation": "~0.1.13",
+    "grunt-jscs-checker": "~0.3.0",
+    "load-grunt-tasks": "~0.3.0",
+    "grunt-autoprefixer": "~0.6.5",
+    "grunt-php": "~0.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/lacymorrow/lacymorrow/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "engines": {
+    "node": ">=0.6"
+  }
+}

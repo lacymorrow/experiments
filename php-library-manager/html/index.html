@@ -1,0 +1,90 @@
+<?php
+  $auth = true;
+  $user = 'lacymorrow';
+  $public_browse = true;
+?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Instrument Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/lacymorrow.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="wrap">
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Instrument Manager</a>
+          </div>
+          <div class="collapse navbar-collapse">
+          <?php if($auth == true){ ?>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="/">Home</a></li>
+              <li><a href="about">About</a></li>
+              <li><a href="contact">Contact</a></li>
+            </ul>
+          <?php } ?>
+          <ul class="nav navbar-nav navbar-right">
+            <?php if($auth == true || $public_browse == true){ ?>
+              <li><a href="browse">Browse</a></li>
+            <?php }
+            if($auth == true){ ?>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Manage <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="users">Users</a></li>
+                  <li class="divider"></li>
+                  <li><a href="schools">Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="instruments">Instruments</a></li>
+                </ul>
+              </li>
+            <?php if($auth==true){ ?>
+              <li><a href="login">Sign In</a></li> 
+            <?php } else { ?>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo (isset($user)) ? $user : $auth ; ?><b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="users/:userid">User Details</a></li>
+                  <li class="divider"></li>
+                  <li><a href="logout">Sign Out</a></li>
+                </ul>
+              </li>
+            <? } ?>
+          </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Begin page content -->
+      </div>
+    </div>
+    <div id="footer">
+      <div class="container">
+        <ul class="list-inline text-muted center-block">
+          <li><a href="/">Home</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/lacymorrow.min.js"></script>
+  </body>
+</html>
